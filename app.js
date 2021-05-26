@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('<h1>s464894 Damian Kowalski</h1> <h4>Witaj na stronie, która deployowana jest używając webhooka</h4> <p>Version 2.0</p>');
+  res.send('<h1>s464894 Damian Kowalski</h1> <h4>Witaj na stronie, która deployowana jest używając webhooka</h4><h2>Witaj na nowej wersji tej aplikacji!</h2> <p>Version 3.0</p>');
 })
 
 app.get('/products', (req, res) => {
